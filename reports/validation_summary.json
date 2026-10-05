@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-04",
+  "automated_tests": 26,
+  "result": "passed",
+  "financial_tieouts": 12,
+  "periods": 8,
+  "browser_checks": [
+    "Real-data dashboard rendered",
+    "Bull scenario recalculated to INR 1817 rounded DCF/share",
+    "Evidence search returned page-linked analyst notes"
+  ],
+  "pdf_pages": 3,
+  "pdf_visual_review": "All pages inspected: no clipping or orphan page",
+  "network_refresh": "Failed HTTP 403; snapshot retained",
+  "not_verified": [
+    "Docker build",
+    "Public deployment",
+    "GitHub remote",
+    "Unattended filing discovery",
+    "Analyst time-saving measurement"
+  ]
+}
