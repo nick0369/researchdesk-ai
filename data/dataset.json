@@ -1,0 +1,2682 @@
+{
+  "schema_version": 1,
+  "company": {
+    "name": "Infosys Limited",
+    "ticker": "INFY",
+    "nse": "INFY",
+    "bse": "500209",
+    "currency": "INR",
+    "unit": "crore",
+    "basis": "Consolidated Ind AS"
+  },
+  "as_of": "2026-10-04",
+  "latest_period": "Q1FY27",
+  "sources": [
+    {
+      "id": "INFY-FY25",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q4/documents/consolidated/consol-fy25-q4-and-12m-finstatement.pdf",
+      "title": "Infosys consolidated Ind AS FY25 and FY24",
+      "published_at": "2025-04-17",
+      "path": "data/verified_rows.json",
+      "sha256": "c94aa889332fa38bcb33329a9847d8adc5a9a0933f2c3f72d47c5a4f8437f2f4",
+      "hash_scope": "reviewed_numeric_snapshot_not_original_pdf",
+      "retrieved_at": "2026-10-04",
+      "raw_pdf_available": false
+    },
+    {
+      "id": "INFY-FY26",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q4/documents/consolidated/consol-fy26-q4-and-12m-finstatement.pdf",
+      "title": "Infosys consolidated Ind AS FY26 and FY25",
+      "published_at": "2026-04-23",
+      "path": "data/verified_rows.json",
+      "sha256": "c94aa889332fa38bcb33329a9847d8adc5a9a0933f2c3f72d47c5a4f8437f2f4",
+      "hash_scope": "reviewed_numeric_snapshot_not_original_pdf",
+      "retrieved_at": "2026-10-04",
+      "raw_pdf_available": false
+    },
+    {
+      "id": "INFY-Q1FY27",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q1/documents/consolidated/consol-fy27-q1-finstatement.pdf",
+      "title": "Infosys consolidated Ind AS Q1 FY27 and Q1 FY26",
+      "published_at": "2026-07-23",
+      "path": "data/verified_rows.json",
+      "sha256": "c94aa889332fa38bcb33329a9847d8adc5a9a0933f2c3f72d47c5a4f8437f2f4",
+      "hash_scope": "reviewed_numeric_snapshot_not_original_pdf",
+      "retrieved_at": "2026-10-04",
+      "raw_pdf_available": false
+    },
+    {
+      "id": "INFY-CALL-Q1FY27",
+      "title": "Infosys Q1 FY27 earnings call: analyst source notes",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q1/documents/transcripts/earningscall.pdf",
+      "path": "data/sources/q1fy27_call_notes.txt",
+      "sha256": "aa6c21aad5e6f94bf619abf1659d2a75d69f48f7c8345400366a04d49c233ed1",
+      "hash_scope": "analyst_notes_not_full_transcript",
+      "retrieved_at": "2026-10-04",
+      "published_at": "2026-07-23",
+      "raw_pdf_available": false
+    }
+  ],
+  "periods": [
+    {
+      "id": "Q4FY24",
+      "end_date": "2024-03-31",
+      "kind": "quarter",
+      "months": 3,
+      "date_evidence": {
+        "source_id": "INFY-FY25",
+        "page": 3,
+        "date_label": "Three months ended March 31, 2024"
+      },
+      "metrics": {
+        "revenue": 37923.0,
+        "other_income": 2729.0,
+        "da": 1163.0,
+        "finance_cost": 110.0,
+        "pbt": 10240.0,
+        "current_tax": 1173.0,
+        "deferred_tax": 1092.0,
+        "pat": 7969.0,
+        "group_pat": 7975.0,
+        "eps": 19.25,
+        "weighted_shares_crore": 413.9432133,
+        "tax": 2265.0,
+        "equity": 88116.0,
+        "total_equity": 88461.0,
+        "total_assets": 137814.0,
+        "current_assets": 89432.0,
+        "current_liabilities": 38794.0,
+        "cash": 14786.0,
+        "current_investments": 12915.0,
+        "noncurrent_investments": 11708.0,
+        "lease_debt": 8359.0,
+        "receivables": 30193.0,
+        "payables": 3956.0,
+        "cfo": null,
+        "capex": null,
+        "shares_crore": 413.9950635,
+        "minority": 345.0
+      },
+      "evidence": {
+        "revenue": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Revenue from operations",
+          "snapshot_row": 1,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "other_income": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Other income, net",
+          "snapshot_row": 4,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "da": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Depreciation and amortization expenses",
+          "snapshot_row": 7,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "finance_cost": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Finance cost",
+          "snapshot_row": 10,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pbt": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Profit before tax",
+          "snapshot_row": 13,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_tax": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Current tax",
+          "snapshot_row": 16,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "deferred_tax": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Deferred tax",
+          "snapshot_row": 19,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pat": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Owners of the Company",
+          "snapshot_row": 22,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "group_pat": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Profit for the period",
+          "snapshot_row": 25,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "eps": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Basic (INR)",
+          "snapshot_row": 28,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR per share"
+        },
+        "weighted_shares_crore": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Basic (in shares)",
+          "snapshot_row": 31,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares"
+        },
+        "tax": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "current_tax + deferred_tax",
+          "snapshot_row": 16,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "current_tax",
+            "deferred_tax"
+          ]
+        },
+        "equity": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Total equity attributable to equity holders of the Company",
+          "snapshot_row": 34,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2024-03-31"
+        },
+        "total_equity": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Total equity",
+          "snapshot_row": 37,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2024-03-31"
+        },
+        "total_assets": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Total assets",
+          "snapshot_row": 43,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2024-03-31"
+        },
+        "current_assets": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Total current assets",
+          "snapshot_row": 46,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2024-03-31"
+        },
+        "current_liabilities": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Total current liabilities",
+          "snapshot_row": 49,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2024-03-31"
+        },
+        "cash": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Cash and cash equivalents",
+          "snapshot_row": 55,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2024-03-31"
+        },
+        "current_investments": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Investments - current assets",
+          "snapshot_row": 58,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2024-03-31"
+        },
+        "noncurrent_investments": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Investments - non-current assets",
+          "snapshot_row": 61,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2024-03-31"
+        },
+        "lease_debt": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "lease_current + lease_noncurrent",
+          "snapshot_row": 64,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "lease_current",
+            "lease_noncurrent"
+          ],
+          "balance_date": "2024-03-31"
+        },
+        "receivables": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Trade receivables",
+          "snapshot_row": 70,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2024-03-31"
+        },
+        "payables": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Trade payables",
+          "snapshot_row": 73,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2024-03-31"
+        },
+        "cfo": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "capex": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "shares_crore": {
+          "source_id": "INFY-FY25",
+          "page": 23,
+          "label": "As at the end of the period - number of shares",
+          "snapshot_row": 78,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares",
+          "balance_date": "2024-03-31"
+        },
+        "minority": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Non-controlling interests",
+          "snapshot_row": 40,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2024-03-31"
+        }
+      },
+      "missing": [
+        "cfo",
+        "capex"
+      ]
+    },
+    {
+      "id": "FY24",
+      "end_date": "2024-03-31",
+      "kind": "annual",
+      "months": 12,
+      "date_evidence": {
+        "source_id": "INFY-FY25",
+        "page": 3,
+        "date_label": "Year ended March 31, 2024"
+      },
+      "metrics": {
+        "revenue": 153670.0,
+        "other_income": 4711.0,
+        "da": 4678.0,
+        "finance_cost": 470.0,
+        "pbt": 35988.0,
+        "current_tax": 8390.0,
+        "deferred_tax": 1350.0,
+        "pat": 26233.0,
+        "group_pat": 26248.0,
+        "eps": 63.39,
+        "weighted_shares_crore": 413.856809,
+        "equity": 88116.0,
+        "total_equity": 88461.0,
+        "minority": 345.0,
+        "total_assets": 137814.0,
+        "current_assets": 89432.0,
+        "current_liabilities": 38794.0,
+        "noncurrent_liabilities": 10559.0,
+        "cash": 14786.0,
+        "current_investments": 12915.0,
+        "noncurrent_investments": 11708.0,
+        "lease_current": 1959.0,
+        "lease_noncurrent": 6400.0,
+        "receivables": 30193.0,
+        "payables": 3956.0,
+        "cfo": 25210.0,
+        "capex": 2201.0,
+        "shares_crore": 413.9950635,
+        "tax": 9740.0,
+        "lease_debt": 8359.0
+      },
+      "evidence": {
+        "revenue": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Revenue from operations",
+          "snapshot_row": 1,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "other_income": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Other income, net",
+          "snapshot_row": 4,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "da": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Depreciation and amortization expenses",
+          "snapshot_row": 7,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "finance_cost": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Finance cost",
+          "snapshot_row": 10,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pbt": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Profit before tax",
+          "snapshot_row": 13,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_tax": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Current tax",
+          "snapshot_row": 16,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "deferred_tax": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Deferred tax",
+          "snapshot_row": 19,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pat": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Owners of the Company",
+          "snapshot_row": 22,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "group_pat": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Profit for the period",
+          "snapshot_row": 25,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "eps": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Basic (INR)",
+          "snapshot_row": 28,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR per share"
+        },
+        "weighted_shares_crore": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "Basic (in shares)",
+          "snapshot_row": 31,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares"
+        },
+        "equity": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Total equity attributable to equity holders of the Company",
+          "snapshot_row": 34,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "total_equity": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Total equity",
+          "snapshot_row": 37,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "minority": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Non-controlling interests",
+          "snapshot_row": 40,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "total_assets": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Total assets",
+          "snapshot_row": 43,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_assets": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Total current assets",
+          "snapshot_row": 46,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_liabilities": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Total current liabilities",
+          "snapshot_row": 49,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "noncurrent_liabilities": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Total non-current liabilities",
+          "snapshot_row": 52,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "cash": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Cash and cash equivalents",
+          "snapshot_row": 55,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_investments": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Investments - current assets",
+          "snapshot_row": 58,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "noncurrent_investments": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Investments - non-current assets",
+          "snapshot_row": 61,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "lease_current": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Lease liabilities - current",
+          "snapshot_row": 64,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "lease_noncurrent": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Lease liabilities - non-current",
+          "snapshot_row": 67,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "receivables": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Trade receivables",
+          "snapshot_row": 70,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "payables": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "Trade payables",
+          "snapshot_row": 73,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "cfo": {
+          "source_id": "INFY-FY25",
+          "page": 6,
+          "label": "Net cash generated by operating activities",
+          "snapshot_row": 76,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "capex": {
+          "source_id": "INFY-FY25",
+          "page": 6,
+          "label": "Expenditure on property, plant and equipment and intangibles",
+          "snapshot_row": 77,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "shares_crore": {
+          "source_id": "INFY-FY25",
+          "page": 23,
+          "label": "As at the end of the period - number of shares",
+          "snapshot_row": 78,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares"
+        },
+        "tax": {
+          "source_id": "INFY-FY25",
+          "page": 3,
+          "label": "current_tax + deferred_tax",
+          "snapshot_row": 16,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "current_tax",
+            "deferred_tax"
+          ]
+        },
+        "lease_debt": {
+          "source_id": "INFY-FY25",
+          "page": 2,
+          "label": "lease_current + lease_noncurrent",
+          "snapshot_row": 64,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "lease_current",
+            "lease_noncurrent"
+          ]
+        }
+      },
+      "missing": []
+    },
+    {
+      "id": "Q4FY25",
+      "end_date": "2025-03-31",
+      "kind": "quarter",
+      "months": 3,
+      "date_evidence": {
+        "source_id": "INFY-FY25",
+        "page": 3,
+        "date_label": "Three months ended March 31, 2025"
+      },
+      "metrics": {
+        "revenue": 40925.0,
+        "other_income": 1190.0,
+        "da": 1299.0,
+        "finance_cost": 102.0,
+        "pbt": 9663.0,
+        "current_tax": 2784.0,
+        "deferred_tax": -159.0,
+        "pat": 7033.0,
+        "group_pat": 7038.0,
+        "eps": 16.98,
+        "weighted_shares_crore": 414.2429577,
+        "exceptional_expense": 0.0,
+        "tax": 2625.0,
+        "equity": 95818.0,
+        "total_equity": 96203.0,
+        "total_assets": 148903.0,
+        "current_assets": 97099.0,
+        "current_liabilities": 42850.0,
+        "cash": 24455.0,
+        "current_investments": 12482.0,
+        "noncurrent_investments": 11059.0,
+        "lease_debt": 8227.0,
+        "receivables": 31158.0,
+        "payables": 4164.0,
+        "cfo": null,
+        "capex": null,
+        "shares_crore": 414.3607528,
+        "minority": 385.0
+      },
+      "evidence": {
+        "revenue": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Revenue from operations",
+          "snapshot_row": 2,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "other_income": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Other income, net",
+          "snapshot_row": 5,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "da": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Depreciation and amortization expenses",
+          "snapshot_row": 8,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "finance_cost": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Finance cost",
+          "snapshot_row": 11,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pbt": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Profit before tax",
+          "snapshot_row": 14,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_tax": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Current tax",
+          "snapshot_row": 17,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "deferred_tax": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Deferred tax",
+          "snapshot_row": 20,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pat": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Owners of the Company",
+          "snapshot_row": 23,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "group_pat": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Profit for the period",
+          "snapshot_row": 26,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "eps": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Basic (INR)",
+          "snapshot_row": 29,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR per share"
+        },
+        "weighted_shares_crore": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Basic (in shares)",
+          "snapshot_row": 32,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares"
+        },
+        "exceptional_expense": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Impact of Labour Codes",
+          "snapshot_row": 85,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "tax": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "current_tax + deferred_tax",
+          "snapshot_row": 17,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "current_tax",
+            "deferred_tax"
+          ]
+        },
+        "equity": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Total equity attributable to equity holders of the Company",
+          "snapshot_row": 35,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2025-03-31"
+        },
+        "total_equity": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Total equity",
+          "snapshot_row": 38,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2025-03-31"
+        },
+        "total_assets": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Total assets",
+          "snapshot_row": 44,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2025-03-31"
+        },
+        "current_assets": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Total current assets",
+          "snapshot_row": 47,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2025-03-31"
+        },
+        "current_liabilities": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Total current liabilities",
+          "snapshot_row": 50,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2025-03-31"
+        },
+        "cash": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Cash and cash equivalents",
+          "snapshot_row": 56,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2025-03-31"
+        },
+        "current_investments": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Investments - current assets",
+          "snapshot_row": 59,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2025-03-31"
+        },
+        "noncurrent_investments": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Investments - non-current assets",
+          "snapshot_row": 62,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2025-03-31"
+        },
+        "lease_debt": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "lease_current + lease_noncurrent",
+          "snapshot_row": 65,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "lease_current",
+            "lease_noncurrent"
+          ],
+          "balance_date": "2025-03-31"
+        },
+        "receivables": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Trade receivables",
+          "snapshot_row": 71,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2025-03-31"
+        },
+        "payables": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Trade payables",
+          "snapshot_row": 74,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2025-03-31"
+        },
+        "cfo": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "capex": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "shares_crore": {
+          "source_id": "INFY-FY26",
+          "page": 23,
+          "label": "As at the end of the period - number of shares",
+          "snapshot_row": 81,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares",
+          "balance_date": "2025-03-31"
+        },
+        "minority": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Non-controlling interests",
+          "snapshot_row": 41,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2025-03-31"
+        }
+      },
+      "missing": [
+        "cfo",
+        "capex"
+      ]
+    },
+    {
+      "id": "FY25",
+      "end_date": "2025-03-31",
+      "kind": "annual",
+      "months": 12,
+      "date_evidence": {
+        "source_id": "INFY-FY25",
+        "page": 3,
+        "date_label": "Year ended March 31, 2025"
+      },
+      "metrics": {
+        "revenue": 162990.0,
+        "other_income": 3600.0,
+        "da": 4812.0,
+        "finance_cost": 416.0,
+        "pbt": 37608.0,
+        "current_tax": 12130.0,
+        "deferred_tax": -1272.0,
+        "pat": 26713.0,
+        "group_pat": 26750.0,
+        "eps": 64.5,
+        "weighted_shares_crore": 414.1611738,
+        "equity": 95818.0,
+        "total_equity": 96203.0,
+        "minority": 385.0,
+        "total_assets": 148903.0,
+        "current_assets": 97099.0,
+        "current_liabilities": 42850.0,
+        "noncurrent_liabilities": 9850.0,
+        "cash": 24455.0,
+        "current_investments": 12482.0,
+        "noncurrent_investments": 11059.0,
+        "lease_current": 2455.0,
+        "lease_noncurrent": 5772.0,
+        "receivables": 31158.0,
+        "payables": 4164.0,
+        "cfo": 35694.0,
+        "capex": 2237.0,
+        "shares_crore": 414.3607528,
+        "exceptional_expense": 0.0,
+        "tax": 10858.0,
+        "lease_debt": 8227.0
+      },
+      "evidence": {
+        "revenue": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Revenue from operations",
+          "snapshot_row": 2,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "other_income": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Other income, net",
+          "snapshot_row": 5,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "da": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Depreciation and amortization expenses",
+          "snapshot_row": 8,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "finance_cost": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Finance cost",
+          "snapshot_row": 11,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pbt": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Profit before tax",
+          "snapshot_row": 14,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_tax": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Current tax",
+          "snapshot_row": 17,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "deferred_tax": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Deferred tax",
+          "snapshot_row": 20,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pat": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Owners of the Company",
+          "snapshot_row": 23,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "group_pat": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Profit for the period",
+          "snapshot_row": 26,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "eps": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Basic (INR)",
+          "snapshot_row": 29,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR per share"
+        },
+        "weighted_shares_crore": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Basic (in shares)",
+          "snapshot_row": 32,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares"
+        },
+        "equity": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Total equity attributable to equity holders of the Company",
+          "snapshot_row": 35,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "total_equity": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Total equity",
+          "snapshot_row": 38,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "minority": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Non-controlling interests",
+          "snapshot_row": 41,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "total_assets": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Total assets",
+          "snapshot_row": 44,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_assets": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Total current assets",
+          "snapshot_row": 47,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_liabilities": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Total current liabilities",
+          "snapshot_row": 50,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "noncurrent_liabilities": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Total non-current liabilities",
+          "snapshot_row": 53,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "cash": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Cash and cash equivalents",
+          "snapshot_row": 56,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_investments": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Investments - current assets",
+          "snapshot_row": 59,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "noncurrent_investments": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Investments - non-current assets",
+          "snapshot_row": 62,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "lease_current": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Lease liabilities - current",
+          "snapshot_row": 65,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "lease_noncurrent": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Lease liabilities - non-current",
+          "snapshot_row": 68,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "receivables": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Trade receivables",
+          "snapshot_row": 71,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "payables": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "Trade payables",
+          "snapshot_row": 74,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "cfo": {
+          "source_id": "INFY-FY26",
+          "page": 6,
+          "label": "Net cash generated by operating activities",
+          "snapshot_row": 79,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "capex": {
+          "source_id": "INFY-FY26",
+          "page": 6,
+          "label": "Expenditure on property, plant and equipment and intangibles net of sale proceeds",
+          "snapshot_row": 80,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "shares_crore": {
+          "source_id": "INFY-FY26",
+          "page": 23,
+          "label": "As at the end of the period - number of shares",
+          "snapshot_row": 81,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares"
+        },
+        "exceptional_expense": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Impact of Labour Codes",
+          "snapshot_row": 85,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "tax": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "current_tax + deferred_tax",
+          "snapshot_row": 17,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "current_tax",
+            "deferred_tax"
+          ]
+        },
+        "lease_debt": {
+          "source_id": "INFY-FY26",
+          "page": 2,
+          "label": "lease_current + lease_noncurrent",
+          "snapshot_row": 65,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "lease_current",
+            "lease_noncurrent"
+          ]
+        }
+      },
+      "missing": []
+    },
+    {
+      "id": "Q1FY26",
+      "end_date": "2025-06-30",
+      "kind": "quarter",
+      "months": 3,
+      "date_evidence": {
+        "source_id": "INFY-Q1FY27",
+        "page": 3,
+        "date_label": "Three months ended June 30, 2025"
+      },
+      "metrics": {
+        "revenue": 42279.0,
+        "other_income": 1042.0,
+        "da": 1140.0,
+        "finance_cost": 105.0,
+        "pbt": 9740.0,
+        "current_tax": 3053.0,
+        "deferred_tax": -237.0,
+        "pat": 6921.0,
+        "group_pat": 6924.0,
+        "eps": 16.7,
+        "weighted_shares_crore": 414.3971592,
+        "cfo": 7632.0,
+        "capex": 865.0,
+        "tax": 2816.0,
+        "equity": null,
+        "total_equity": null,
+        "total_assets": null,
+        "current_assets": null,
+        "current_liabilities": null,
+        "cash": null,
+        "current_investments": null,
+        "noncurrent_investments": null,
+        "lease_debt": null,
+        "receivables": null,
+        "payables": null,
+        "shares_crore": null,
+        "minority": null
+      },
+      "evidence": {
+        "revenue": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Revenue from operations",
+          "snapshot_row": 3,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "other_income": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Other income, net",
+          "snapshot_row": 6,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "da": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Depreciation and amortization expenses",
+          "snapshot_row": 9,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "finance_cost": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Finance cost",
+          "snapshot_row": 12,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pbt": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Profit before tax",
+          "snapshot_row": 15,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_tax": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Current tax",
+          "snapshot_row": 18,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "deferred_tax": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Deferred tax",
+          "snapshot_row": 21,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pat": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Owners of the Company",
+          "snapshot_row": 24,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "group_pat": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Profit for the period",
+          "snapshot_row": 27,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "eps": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Basic (INR)",
+          "snapshot_row": 30,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR per share"
+        },
+        "weighted_shares_crore": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Basic (in shares)",
+          "snapshot_row": 33,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares"
+        },
+        "cfo": {
+          "source_id": "INFY-Q1FY27",
+          "page": 6,
+          "label": "Net cash generated by operating activities",
+          "snapshot_row": 82,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "capex": {
+          "source_id": "INFY-Q1FY27",
+          "page": 6,
+          "label": "Expenditure on property, plant and equipment and intangibles net of sale proceeds",
+          "snapshot_row": 83,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "tax": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "current_tax + deferred_tax",
+          "snapshot_row": 18,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "current_tax",
+            "deferred_tax"
+          ]
+        },
+        "equity": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "total_equity": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "total_assets": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "current_assets": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "current_liabilities": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "cash": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "current_investments": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "noncurrent_investments": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "lease_debt": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "receivables": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "payables": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "shares_crore": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "minority": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        }
+      },
+      "missing": [
+        "equity",
+        "total_equity",
+        "total_assets",
+        "current_assets",
+        "current_liabilities",
+        "cash",
+        "current_investments",
+        "noncurrent_investments",
+        "lease_debt",
+        "receivables",
+        "payables",
+        "shares_crore",
+        "minority"
+      ]
+    },
+    {
+      "id": "Q4FY26",
+      "end_date": "2026-03-31",
+      "kind": "quarter",
+      "months": 3,
+      "date_evidence": {
+        "source_id": "INFY-FY26",
+        "page": 3,
+        "date_label": "Three months ended March 31, 2026"
+      },
+      "metrics": {
+        "revenue": 46402.0,
+        "other_income": 1159.0,
+        "da": 1424.0,
+        "finance_cost": 105.0,
+        "pbt": 10797.0,
+        "current_tax": 2664.0,
+        "deferred_tax": -376.0,
+        "pat": 8501.0,
+        "group_pat": 8509.0,
+        "eps": 21.01,
+        "weighted_shares_crore": 404.6019309,
+        "exceptional_expense": 0.0,
+        "tax": 2288.0,
+        "equity": 92852.0,
+        "total_equity": 93297.0,
+        "total_assets": 155967.0,
+        "current_assets": 103489.0,
+        "current_liabilities": 52322.0,
+        "cash": 22201.0,
+        "current_investments": 12950.0,
+        "noncurrent_investments": 8930.0,
+        "lease_debt": 9176.0,
+        "receivables": 35234.0,
+        "payables": 4744.0,
+        "cfo": null,
+        "capex": null,
+        "shares_crore": 404.6940812,
+        "minority": 445.0
+      },
+      "evidence": {
+        "revenue": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Revenue from operations",
+          "snapshot_row": 2,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "other_income": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Other income, net",
+          "snapshot_row": 5,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "da": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Depreciation and amortization expenses",
+          "snapshot_row": 8,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "finance_cost": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Finance cost",
+          "snapshot_row": 11,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pbt": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Profit before tax",
+          "snapshot_row": 14,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_tax": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Current tax",
+          "snapshot_row": 17,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "deferred_tax": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Deferred tax",
+          "snapshot_row": 20,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pat": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Owners of the Company",
+          "snapshot_row": 23,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "group_pat": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Profit for the period",
+          "snapshot_row": 26,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "eps": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Basic (INR)",
+          "snapshot_row": 29,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR per share"
+        },
+        "weighted_shares_crore": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Basic (in shares)",
+          "snapshot_row": 32,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares"
+        },
+        "exceptional_expense": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Impact of Labour Codes",
+          "snapshot_row": 85,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "tax": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "current_tax + deferred_tax",
+          "snapshot_row": 17,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "current_tax",
+            "deferred_tax"
+          ]
+        },
+        "equity": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total equity attributable to equity holders of the Company",
+          "snapshot_row": 36,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2026-03-31"
+        },
+        "total_equity": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total equity",
+          "snapshot_row": 39,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2026-03-31"
+        },
+        "total_assets": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total assets",
+          "snapshot_row": 45,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2026-03-31"
+        },
+        "current_assets": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total current assets",
+          "snapshot_row": 48,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2026-03-31"
+        },
+        "current_liabilities": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total current liabilities",
+          "snapshot_row": 51,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2026-03-31"
+        },
+        "cash": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Cash and cash equivalents",
+          "snapshot_row": 57,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2026-03-31"
+        },
+        "current_investments": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Investments - current assets",
+          "snapshot_row": 60,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2026-03-31"
+        },
+        "noncurrent_investments": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Investments - non-current assets",
+          "snapshot_row": 63,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2026-03-31"
+        },
+        "lease_debt": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "lease_current + lease_noncurrent",
+          "snapshot_row": 66,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "lease_current",
+            "lease_noncurrent"
+          ],
+          "balance_date": "2026-03-31"
+        },
+        "receivables": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Trade receivables",
+          "snapshot_row": 72,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2026-03-31"
+        },
+        "payables": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Trade payables",
+          "snapshot_row": 75,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2026-03-31"
+        },
+        "cfo": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "capex": {
+          "evidence_type": "missing_required_source",
+          "confidence": "low",
+          "label": "Not present in mapped source table"
+        },
+        "shares_crore": {
+          "source_id": "INFY-Q1FY27",
+          "page": 22,
+          "label": "As at the end of the period - number of shares",
+          "snapshot_row": 84,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares",
+          "balance_date": "2026-03-31"
+        },
+        "minority": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Non-controlling interests",
+          "snapshot_row": 42,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore",
+          "balance_date": "2026-03-31"
+        }
+      },
+      "missing": [
+        "cfo",
+        "capex"
+      ]
+    },
+    {
+      "id": "FY26",
+      "end_date": "2026-03-31",
+      "kind": "annual",
+      "months": 12,
+      "date_evidence": {
+        "source_id": "INFY-FY26",
+        "page": 3,
+        "date_label": "Year ended March 31, 2026"
+      },
+      "metrics": {
+        "revenue": 178650.0,
+        "other_income": 4322.0,
+        "da": 4902.0,
+        "finance_cost": 416.0,
+        "pbt": 39995.0,
+        "current_tax": 11767.0,
+        "deferred_tax": -1246.0,
+        "pat": 29440.0,
+        "group_pat": 29474.0,
+        "eps": 71.58,
+        "weighted_shares_crore": 411.2814745,
+        "equity": 92852.0,
+        "total_equity": 93297.0,
+        "minority": 445.0,
+        "total_assets": 155967.0,
+        "current_assets": 103489.0,
+        "current_liabilities": 52322.0,
+        "noncurrent_liabilities": 10348.0,
+        "cash": 22201.0,
+        "current_investments": 12950.0,
+        "noncurrent_investments": 8930.0,
+        "lease_current": 3160.0,
+        "lease_noncurrent": 6016.0,
+        "receivables": 35234.0,
+        "payables": 4744.0,
+        "cfo": 33986.0,
+        "capex": 2727.0,
+        "shares_crore": 404.6940812,
+        "exceptional_expense": 1289.0,
+        "tax": 10521.0,
+        "lease_debt": 9176.0
+      },
+      "evidence": {
+        "revenue": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Revenue from operations",
+          "snapshot_row": 2,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "other_income": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Other income, net",
+          "snapshot_row": 5,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "da": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Depreciation and amortization expenses",
+          "snapshot_row": 8,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "finance_cost": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Finance cost",
+          "snapshot_row": 11,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pbt": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Profit before tax",
+          "snapshot_row": 14,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_tax": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Current tax",
+          "snapshot_row": 17,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "deferred_tax": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Deferred tax",
+          "snapshot_row": 20,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pat": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Owners of the Company",
+          "snapshot_row": 23,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "group_pat": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Profit for the period",
+          "snapshot_row": 26,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "eps": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Basic (INR)",
+          "snapshot_row": 29,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR per share"
+        },
+        "weighted_shares_crore": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Basic (in shares)",
+          "snapshot_row": 32,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares"
+        },
+        "equity": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total equity attributable to equity holders of the Company",
+          "snapshot_row": 36,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "total_equity": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total equity",
+          "snapshot_row": 39,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "minority": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Non-controlling interests",
+          "snapshot_row": 42,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "total_assets": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total assets",
+          "snapshot_row": 45,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_assets": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total current assets",
+          "snapshot_row": 48,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_liabilities": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total current liabilities",
+          "snapshot_row": 51,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "noncurrent_liabilities": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total non-current liabilities",
+          "snapshot_row": 54,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "cash": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Cash and cash equivalents",
+          "snapshot_row": 57,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_investments": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Investments - current assets",
+          "snapshot_row": 60,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "noncurrent_investments": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Investments - non-current assets",
+          "snapshot_row": 63,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "lease_current": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Lease liabilities - current",
+          "snapshot_row": 66,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "lease_noncurrent": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Lease liabilities - non-current",
+          "snapshot_row": 69,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "receivables": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Trade receivables",
+          "snapshot_row": 72,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "payables": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Trade payables",
+          "snapshot_row": 75,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "cfo": {
+          "source_id": "INFY-FY26",
+          "page": 6,
+          "label": "Net cash generated by operating activities",
+          "snapshot_row": 79,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "capex": {
+          "source_id": "INFY-FY26",
+          "page": 6,
+          "label": "Expenditure on property, plant and equipment and intangibles net of sale proceeds",
+          "snapshot_row": 80,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "shares_crore": {
+          "source_id": "INFY-Q1FY27",
+          "page": 22,
+          "label": "As at the end of the period - number of shares",
+          "snapshot_row": 84,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares"
+        },
+        "exceptional_expense": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "Impact of Labour Codes",
+          "snapshot_row": 85,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "tax": {
+          "source_id": "INFY-FY26",
+          "page": 3,
+          "label": "current_tax + deferred_tax",
+          "snapshot_row": 17,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "current_tax",
+            "deferred_tax"
+          ]
+        },
+        "lease_debt": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "lease_current + lease_noncurrent",
+          "snapshot_row": 66,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "lease_current",
+            "lease_noncurrent"
+          ]
+        }
+      },
+      "missing": []
+    },
+    {
+      "id": "Q1FY27",
+      "end_date": "2026-06-30",
+      "kind": "quarter",
+      "months": 3,
+      "date_evidence": {
+        "source_id": "INFY-Q1FY27",
+        "page": 3,
+        "date_label": "Three months ended June 30, 2026"
+      },
+      "metrics": {
+        "revenue": 48211.0,
+        "other_income": 984.0,
+        "da": 1246.0,
+        "finance_cost": 119.0,
+        "pbt": 11028.0,
+        "current_tax": 3356.0,
+        "deferred_tax": -103.0,
+        "pat": 7769.0,
+        "group_pat": 7775.0,
+        "eps": 19.19,
+        "weighted_shares_crore": 404.7692701,
+        "equity": 91107.0,
+        "total_equity": 91556.0,
+        "minority": 449.0,
+        "total_assets": 154858.0,
+        "current_assets": 98494.0,
+        "current_liabilities": 52911.0,
+        "noncurrent_liabilities": 10391.0,
+        "cash": 21645.0,
+        "current_investments": 7924.0,
+        "noncurrent_investments": 8743.0,
+        "lease_current": 3407.0,
+        "lease_noncurrent": 5330.0,
+        "receivables": 33781.0,
+        "payables": 4387.0,
+        "cfo": 9330.0,
+        "capex": 776.0,
+        "shares_crore": 404.9645811,
+        "tax": 3253.0,
+        "lease_debt": 8737.0
+      },
+      "evidence": {
+        "revenue": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Revenue from operations",
+          "snapshot_row": 3,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "other_income": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Other income, net",
+          "snapshot_row": 6,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "da": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Depreciation and amortization expenses",
+          "snapshot_row": 9,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "finance_cost": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Finance cost",
+          "snapshot_row": 12,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pbt": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Profit before tax",
+          "snapshot_row": 15,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_tax": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Current tax",
+          "snapshot_row": 18,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "deferred_tax": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Deferred tax",
+          "snapshot_row": 21,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "pat": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Owners of the Company",
+          "snapshot_row": 24,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "group_pat": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Profit for the period",
+          "snapshot_row": 27,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "eps": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Basic (INR)",
+          "snapshot_row": 30,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR per share"
+        },
+        "weighted_shares_crore": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "Basic (in shares)",
+          "snapshot_row": 33,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares"
+        },
+        "equity": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total equity attributable to equity holders of the Company",
+          "snapshot_row": 36,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "total_equity": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total equity",
+          "snapshot_row": 39,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "minority": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Non-controlling interests",
+          "snapshot_row": 42,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "total_assets": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total assets",
+          "snapshot_row": 45,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_assets": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total current assets",
+          "snapshot_row": 48,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_liabilities": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total current liabilities",
+          "snapshot_row": 51,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "noncurrent_liabilities": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Total non-current liabilities",
+          "snapshot_row": 54,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "cash": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Cash and cash equivalents",
+          "snapshot_row": 57,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "current_investments": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Investments - current assets",
+          "snapshot_row": 60,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "noncurrent_investments": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Investments - non-current assets",
+          "snapshot_row": 63,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "lease_current": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Lease liabilities - current",
+          "snapshot_row": 66,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "lease_noncurrent": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Lease liabilities - non-current",
+          "snapshot_row": 69,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "receivables": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Trade receivables",
+          "snapshot_row": 72,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "payables": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "Trade payables",
+          "snapshot_row": 75,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "cfo": {
+          "source_id": "INFY-Q1FY27",
+          "page": 6,
+          "label": "Net cash generated by operating activities",
+          "snapshot_row": 82,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "capex": {
+          "source_id": "INFY-Q1FY27",
+          "page": 6,
+          "label": "Expenditure on property, plant and equipment and intangibles net of sale proceeds",
+          "snapshot_row": 83,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "INR crore"
+        },
+        "shares_crore": {
+          "source_id": "INFY-Q1FY27",
+          "page": 22,
+          "label": "As at the end of the period - number of shares",
+          "snapshot_row": 84,
+          "evidence_type": "fact_source_reported",
+          "confidence": "high",
+          "unit": "crore shares"
+        },
+        "tax": {
+          "source_id": "INFY-Q1FY27",
+          "page": 3,
+          "label": "current_tax + deferred_tax",
+          "snapshot_row": 18,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "current_tax",
+            "deferred_tax"
+          ]
+        },
+        "lease_debt": {
+          "source_id": "INFY-Q1FY27",
+          "page": 2,
+          "label": "lease_current + lease_noncurrent",
+          "snapshot_row": 66,
+          "evidence_type": "derived_calculation",
+          "confidence": "high",
+          "unit": "INR crore",
+          "components": [
+            "lease_current",
+            "lease_noncurrent"
+          ]
+        }
+      },
+      "missing": []
+    }
+  ],
+  "documents": [
+    {
+      "source_id": "INFY-CALL-Q1FY27",
+      "text_path": "data/sources/q1fy27_call_notes.txt",
+      "kind": "transcript_notes",
+      "full_text": false,
+      "page_map": [
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "validation_checks": [
+    {
+      "period": "Q4FY25",
+      "check": "PBT less tax equals group PAT",
+      "residual": 0.0,
+      "passed": true
+    },
+    {
+      "period": "Q4FY24",
+      "check": "PBT less tax equals group PAT",
+      "residual": 0.0,
+      "passed": true
+    },
+    {
+      "period": "FY25",
+      "check": "Balance sheet balances",
+      "residual": 0.0,
+      "passed": true
+    },
+    {
+      "period": "FY25",
+      "check": "PBT less tax equals group PAT",
+      "residual": 0.0,
+      "passed": true
+    },
+    {
+      "period": "FY24",
+      "check": "Balance sheet balances",
+      "residual": 0.0,
+      "passed": true
+    },
+    {
+      "period": "FY24",
+      "check": "PBT less tax equals group PAT",
+      "residual": 0.0,
+      "passed": true
+    },
+    {
+      "period": "Q4FY26",
+      "check": "PBT less tax equals group PAT",
+      "residual": 0.0,
+      "passed": true
+    },
+    {
+      "period": "FY26",
+      "check": "Balance sheet balances",
+      "residual": 0.0,
+      "passed": true
+    },
+    {
+      "period": "FY26",
+      "check": "PBT less tax equals group PAT",
+      "residual": 0.0,
+      "passed": true
+    },
+    {
+      "period": "Q1FY27",
+      "check": "Balance sheet balances",
+      "residual": 0.0,
+      "passed": true
+    },
+    {
+      "period": "Q1FY27",
+      "check": "PBT less tax equals group PAT",
+      "residual": 0.0,
+      "passed": true
+    },
+    {
+      "period": "Q1FY26",
+      "check": "PBT less tax equals group PAT",
+      "residual": 0.0,
+      "passed": true
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "RAW_PDF_FETCH_BLOCKED",
+      "message": "Infosys returned HTTP 403 to direct download. Snapshot contains reviewed primary-source numeric facts; snapshot hashes are not PDF hashes. Original PDFs remain linked."
+    },
+    {
+      "severity": "warning",
+      "code": "EXCEPTIONAL_ITEM",
+      "message": "FY26 reported PBT includes INR 1,289 crore labour-code expense. Historical figures are reported, not management-adjusted."
+    },
+    {
+      "severity": "warning",
+      "code": "CAPEX_BASIS",
+      "message": "FY26 and Q1 FY27 capex is net of sale proceeds; FY25 comparative statement labels expenditure without this qualifier. Treat FCF comparability with care."
+    },
+    {
+      "severity": "warning",
+      "code": "COVERAGE_GAPS",
+      "message": "Sample quarter coverage is discontinuous. Q1 FY26 balance sheet and Q4 quarterly cash flows are missing; annual cash flow is never used as quarterly cash flow."
+    },
+    {
+      "severity": "info",
+      "code": "TRANSCRIPT_NOTES",
+      "message": "Bundled call search uses analyst paraphrases with PDF page anchors, not the complete copyrighted transcript."
+    }
+  ],
+  "normalization_notes": [
+    "Amounts are INR crore, shares in crore; EPS INR/share.",
+    "PAT is profit attributable to owners; group PAT used for tax tie-out.",
+    "Shares are period-end ordinary shares net of treasury in note 2.11; weighted average shares stored separately.",
+    "PDF page numbers are physical, one-based; index cover is page 1.",
+    "Snapshot is reviewed data, not a general-purpose automatic parser. Refresh verifies existing mapped observations; adding issuers or periods requires reviewed mapping."
+  ],
+  "review": {
+    "reviewed_by": "ResearchDesk primary-source review",
+    "reviewed_at": "2026-10-04",
+    "method": "Human-reviewed factual table transcription from web-accessible primary PDFs; direct PDF download returned HTTP 403. Numeric facts only; not a copy of the complete filing."
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "source_id": "INFY-FY25",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q4/documents/consolidated/consol-fy25-q4-and-12m-finstatement.pdf",
+    "snapshot_retained": true
+  },
+  {
+    "source_id": "INFY-FY26",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q4/documents/consolidated/consol-fy26-q4-and-12m-finstatement.pdf",
+    "snapshot_retained": true
+  },
+  {
+    "source_id": "INFY-Q1FY27",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q1/documents/consolidated/consol-fy27-q1-finstatement.pdf",
+    "snapshot_retained": true
+  }
+]

@@ -1,0 +1,1464 @@
+{
+  "sources": [
+    {
+      "id": "INFY-FY25",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q4/documents/consolidated/consol-fy25-q4-and-12m-finstatement.pdf",
+      "title": "Infosys consolidated Ind AS FY25 and FY24",
+      "published_at": "2025-04-17"
+    },
+    {
+      "id": "INFY-FY26",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q4/documents/consolidated/consol-fy26-q4-and-12m-finstatement.pdf",
+      "title": "Infosys consolidated Ind AS FY26 and FY25",
+      "published_at": "2026-04-23"
+    },
+    {
+      "id": "INFY-Q1FY27",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q1/documents/consolidated/consol-fy27-q1-finstatement.pdf",
+      "title": "Infosys consolidated Ind AS Q1 FY27 and Q1 FY26",
+      "published_at": "2026-07-23"
+    }
+  ],
+  "rows": [
+    {
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "label": "Revenue from operations",
+      "metric": "revenue",
+      "periods": [
+        "Q4FY25",
+        "Q4FY24",
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        40925,
+        37923,
+        162990,
+        153670
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "label": "Revenue from operations",
+      "metric": "revenue",
+      "periods": [
+        "Q4FY26",
+        "Q4FY25",
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        46402,
+        40925,
+        178650,
+        162990
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "label": "Revenue from operations",
+      "metric": "revenue",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        48211,
+        42279
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "label": "Other income, net",
+      "metric": "other_income",
+      "periods": [
+        "Q4FY25",
+        "Q4FY24",
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        1190,
+        2729,
+        3600,
+        4711
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "label": "Other income, net",
+      "metric": "other_income",
+      "periods": [
+        "Q4FY26",
+        "Q4FY25",
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        1159,
+        1190,
+        4322,
+        3600
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "label": "Other income, net",
+      "metric": "other_income",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        984,
+        1042
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "label": "Depreciation and amortization expenses",
+      "metric": "da",
+      "periods": [
+        "Q4FY25",
+        "Q4FY24",
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        1299,
+        1163,
+        4812,
+        4678
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "label": "Depreciation and amortization expenses",
+      "metric": "da",
+      "periods": [
+        "Q4FY26",
+        "Q4FY25",
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        1424,
+        1299,
+        4902,
+        4812
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "label": "Depreciation and amortization expenses",
+      "metric": "da",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        1246,
+        1140
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "label": "Finance cost",
+      "metric": "finance_cost",
+      "periods": [
+        "Q4FY25",
+        "Q4FY24",
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        102,
+        110,
+        416,
+        470
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "label": "Finance cost",
+      "metric": "finance_cost",
+      "periods": [
+        "Q4FY26",
+        "Q4FY25",
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        105,
+        102,
+        416,
+        416
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "label": "Finance cost",
+      "metric": "finance_cost",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        119,
+        105
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "label": "Profit before tax",
+      "metric": "pbt",
+      "periods": [
+        "Q4FY25",
+        "Q4FY24",
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        9663,
+        10240,
+        37608,
+        35988
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "label": "Profit before tax",
+      "metric": "pbt",
+      "periods": [
+        "Q4FY26",
+        "Q4FY25",
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        10797,
+        9663,
+        39995,
+        37608
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "label": "Profit before tax",
+      "metric": "pbt",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        11028,
+        9740
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "label": "Current tax",
+      "metric": "current_tax",
+      "periods": [
+        "Q4FY25",
+        "Q4FY24",
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        2784,
+        1173,
+        12130,
+        8390
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "label": "Current tax",
+      "metric": "current_tax",
+      "periods": [
+        "Q4FY26",
+        "Q4FY25",
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        2664,
+        2784,
+        11767,
+        12130
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "label": "Current tax",
+      "metric": "current_tax",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        3356,
+        3053
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "label": "Deferred tax",
+      "metric": "deferred_tax",
+      "periods": [
+        "Q4FY25",
+        "Q4FY24",
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        -159,
+        1092,
+        -1272,
+        1350
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "label": "Deferred tax",
+      "metric": "deferred_tax",
+      "periods": [
+        "Q4FY26",
+        "Q4FY25",
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        -376,
+        -159,
+        -1246,
+        -1272
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "label": "Deferred tax",
+      "metric": "deferred_tax",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        -103,
+        -237
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "label": "Owners of the Company",
+      "metric": "pat",
+      "periods": [
+        "Q4FY25",
+        "Q4FY24",
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        7033,
+        7969,
+        26713,
+        26233
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "label": "Owners of the Company",
+      "metric": "pat",
+      "periods": [
+        "Q4FY26",
+        "Q4FY25",
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        8501,
+        7033,
+        29440,
+        26713
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "label": "Owners of the Company",
+      "metric": "pat",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        7769,
+        6921
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "label": "Profit for the period",
+      "metric": "group_pat",
+      "periods": [
+        "Q4FY25",
+        "Q4FY24",
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        7038,
+        7975,
+        26750,
+        26248
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "label": "Profit for the period",
+      "metric": "group_pat",
+      "periods": [
+        "Q4FY26",
+        "Q4FY25",
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        8509,
+        7038,
+        29474,
+        26750
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "label": "Profit for the period",
+      "metric": "group_pat",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        7775,
+        6924
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "label": "Basic (INR)",
+      "metric": "eps",
+      "periods": [
+        "Q4FY25",
+        "Q4FY24",
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        16.98,
+        19.25,
+        64.5,
+        63.39
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "label": "Basic (INR)",
+      "metric": "eps",
+      "periods": [
+        "Q4FY26",
+        "Q4FY25",
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        21.01,
+        16.98,
+        71.58,
+        64.5
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "label": "Basic (INR)",
+      "metric": "eps",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        19.19,
+        16.7
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "label": "Basic (in shares)",
+      "metric": "weighted_shares_crore",
+      "periods": [
+        "Q4FY25",
+        "Q4FY24",
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        4142429577,
+        4139432133,
+        4141611738,
+        4138568090
+      ],
+      "scale": 1e-07
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "label": "Basic (in shares)",
+      "metric": "weighted_shares_crore",
+      "periods": [
+        "Q4FY26",
+        "Q4FY25",
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        4046019309,
+        4142429577,
+        4112814745,
+        4141611738
+      ],
+      "scale": 1e-07
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "label": "Basic (in shares)",
+      "metric": "weighted_shares_crore",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        4047692701,
+        4143971592
+      ],
+      "scale": 1e-07
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Total equity attributable to equity holders of the Company",
+      "metric": "equity",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        95818,
+        88116
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Total equity attributable to equity holders of the Company",
+      "metric": "equity",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        92852,
+        95818
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Total equity attributable to equity holders of the Company",
+      "metric": "equity",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        91107,
+        92852
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Total equity",
+      "metric": "total_equity",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        96203,
+        88461
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Total equity",
+      "metric": "total_equity",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        93297,
+        96203
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Total equity",
+      "metric": "total_equity",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        91556,
+        93297
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Non-controlling interests",
+      "metric": "minority",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        385,
+        345
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Non-controlling interests",
+      "metric": "minority",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        445,
+        385
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Non-controlling interests",
+      "metric": "minority",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        449,
+        445
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Total assets",
+      "metric": "total_assets",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        148903,
+        137814
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Total assets",
+      "metric": "total_assets",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        155967,
+        148903
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Total assets",
+      "metric": "total_assets",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        154858,
+        155967
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Total current assets",
+      "metric": "current_assets",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        97099,
+        89432
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Total current assets",
+      "metric": "current_assets",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        103489,
+        97099
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Total current assets",
+      "metric": "current_assets",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        98494,
+        103489
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Total current liabilities",
+      "metric": "current_liabilities",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        42850,
+        38794
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Total current liabilities",
+      "metric": "current_liabilities",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        52322,
+        42850
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Total current liabilities",
+      "metric": "current_liabilities",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        52911,
+        52322
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Total non-current liabilities",
+      "metric": "noncurrent_liabilities",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        9850,
+        10559
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Total non-current liabilities",
+      "metric": "noncurrent_liabilities",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        10348,
+        9850
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Total non-current liabilities",
+      "metric": "noncurrent_liabilities",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        10391,
+        10348
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Cash and cash equivalents",
+      "metric": "cash",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        24455,
+        14786
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Cash and cash equivalents",
+      "metric": "cash",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        22201,
+        24455
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Cash and cash equivalents",
+      "metric": "cash",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        21645,
+        22201
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Investments - current assets",
+      "metric": "current_investments",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        12482,
+        12915
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Investments - current assets",
+      "metric": "current_investments",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        12950,
+        12482
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Investments - current assets",
+      "metric": "current_investments",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        7924,
+        12950
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Investments - non-current assets",
+      "metric": "noncurrent_investments",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        11059,
+        11708
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Investments - non-current assets",
+      "metric": "noncurrent_investments",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        8930,
+        11059
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Investments - non-current assets",
+      "metric": "noncurrent_investments",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        8743,
+        8930
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Lease liabilities - current",
+      "metric": "lease_current",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        2455,
+        1959
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Lease liabilities - current",
+      "metric": "lease_current",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        3160,
+        2455
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Lease liabilities - current",
+      "metric": "lease_current",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        3407,
+        3160
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Lease liabilities - non-current",
+      "metric": "lease_noncurrent",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        5772,
+        6400
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Lease liabilities - non-current",
+      "metric": "lease_noncurrent",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        6016,
+        5772
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Lease liabilities - non-current",
+      "metric": "lease_noncurrent",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        5330,
+        6016
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Trade receivables",
+      "metric": "receivables",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        31158,
+        30193
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Trade receivables",
+      "metric": "receivables",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        35234,
+        31158
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Trade receivables",
+      "metric": "receivables",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        33781,
+        35234
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 2,
+      "label": "Trade payables",
+      "metric": "payables",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        4164,
+        3956
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 2,
+      "label": "Trade payables",
+      "metric": "payables",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        4744,
+        4164
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 2,
+      "label": "Trade payables",
+      "metric": "payables",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        4387,
+        4744
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 6,
+      "label": "Net cash generated by operating activities",
+      "metric": "cfo",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        35694,
+        25210
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 6,
+      "label": "Expenditure on property, plant and equipment and intangibles",
+      "metric": "capex",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        2237,
+        2201
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY25",
+      "page": 23,
+      "label": "As at the end of the period - number of shares",
+      "metric": "shares_crore",
+      "periods": [
+        "FY25",
+        "FY24"
+      ],
+      "values": [
+        4143607528,
+        4139950635
+      ],
+      "scale": 1e-07
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 6,
+      "label": "Net cash generated by operating activities",
+      "metric": "cfo",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        33986,
+        35694
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 6,
+      "label": "Expenditure on property, plant and equipment and intangibles net of sale proceeds",
+      "metric": "capex",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        2727,
+        2237
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 23,
+      "label": "As at the end of the period - number of shares",
+      "metric": "shares_crore",
+      "periods": [
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        4046940812,
+        4143607528
+      ],
+      "scale": 1e-07
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 6,
+      "label": "Net cash generated by operating activities",
+      "metric": "cfo",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        9330,
+        7632
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 6,
+      "label": "Expenditure on property, plant and equipment and intangibles net of sale proceeds",
+      "metric": "capex",
+      "periods": [
+        "Q1FY27",
+        "Q1FY26"
+      ],
+      "values": [
+        776,
+        865
+      ],
+      "scale": 1
+    },
+    {
+      "source_id": "INFY-Q1FY27",
+      "page": 22,
+      "label": "As at the end of the period - number of shares",
+      "metric": "shares_crore",
+      "periods": [
+        "Q1FY27",
+        "FY26"
+      ],
+      "values": [
+        4049645811,
+        4046940812
+      ],
+      "scale": 1e-07
+    },
+    {
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "label": "Impact of Labour Codes",
+      "metric": "exceptional_expense",
+      "periods": [
+        "Q4FY26",
+        "Q4FY25",
+        "FY26",
+        "FY25"
+      ],
+      "values": [
+        0,
+        0,
+        1289,
+        0
+      ],
+      "scale": 1
+    }
+  ],
+  "retrieved_at": "2026-10-04",
+  "method": "Human-reviewed factual table transcription from web-accessible primary PDFs; direct PDF download returned HTTP 403. Numeric facts only; not a copy of the complete filing.",
+  "reviewed_by": "ResearchDesk primary-source review",
+  "reviewed_at": "2026-10-04",
+  "currency": "INR",
+  "unit": "crore",
+  "ticker": "INFY",
+  "period_metadata": {
+    "FY24": {
+      "end_date": "2024-03-31",
+      "kind": "annual",
+      "months": 12,
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "date_label": "Year ended March 31, 2024"
+    },
+    "FY25": {
+      "end_date": "2025-03-31",
+      "kind": "annual",
+      "months": 12,
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "date_label": "Year ended March 31, 2025"
+    },
+    "FY26": {
+      "end_date": "2026-03-31",
+      "kind": "annual",
+      "months": 12,
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "date_label": "Year ended March 31, 2026"
+    },
+    "Q4FY24": {
+      "end_date": "2024-03-31",
+      "kind": "quarter",
+      "months": 3,
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "date_label": "Three months ended March 31, 2024"
+    },
+    "Q4FY25": {
+      "end_date": "2025-03-31",
+      "kind": "quarter",
+      "months": 3,
+      "source_id": "INFY-FY25",
+      "page": 3,
+      "date_label": "Three months ended March 31, 2025"
+    },
+    "Q4FY26": {
+      "end_date": "2026-03-31",
+      "kind": "quarter",
+      "months": 3,
+      "source_id": "INFY-FY26",
+      "page": 3,
+      "date_label": "Three months ended March 31, 2026"
+    },
+    "Q1FY26": {
+      "end_date": "2025-06-30",
+      "kind": "quarter",
+      "months": 3,
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "date_label": "Three months ended June 30, 2025"
+    },
+    "Q1FY27": {
+      "end_date": "2026-06-30",
+      "kind": "quarter",
+      "months": 3,
+      "source_id": "INFY-Q1FY27",
+      "page": 3,
+      "date_label": "Three months ended June 30, 2026"
+    }
+  }
+}
